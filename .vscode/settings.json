@@ -1,0 +1,14 @@
+{
+    "Lua.diagnostics.globals": [
+        "love",
+        "imageRetourJeu",
+        "btnOn"
+    ],
+    "Lua.runtime.version": "Lua 5.4",
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library"
+    ],
+    "Lua.diagnostics.disable": [
+        "duplicate-set-field"
+    ]
+}

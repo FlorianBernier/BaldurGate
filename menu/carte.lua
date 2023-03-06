@@ -1,4 +1,6 @@
 local btnOnCarte = 1
+
+Cl = 2
 local carte = {
     r = 1,
     g = 0.5,

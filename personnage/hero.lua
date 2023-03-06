@@ -95,8 +95,8 @@ function updateGreenSquare()
                     h.y + Camera_y, 
                     (m.long < 0 and m.x + m.long or m.x)-h.radius,
                     (m.larg < 0 and m.y + m.larg or m.y)-h.radius,
-                    math.abs(m.long)+h.radius*2, 
-                    math.abs(m.larg)+h.radius*2  
+                    math.abs(m.long)+h.radius*2,
+                    math.abs(m.larg)+h.radius*2
                 ) 
             end
             

@@ -195,8 +195,8 @@ function love.load()
     end
     -----------------------------------
 
-    video = love.graphics.newVideo("video/narateur.ogv")
-    video:play()
+    --video = love.graphics.newVideo("video/narateur.ogv")
+    --video:play()
 
     --créé new hero
     mesHero.create(80,nil,"Soanara", 1400, 1700)
@@ -242,7 +242,7 @@ function love.draw()
     love.graphics.setColor(1, 1, 1)
     mesMenu[btnOn].draw()
 
-    love.graphics.draw(video, 200, 380, 0, 100 / video:getWidth(), 121 /video:getHeight(), 0, 0)
+    --love.graphics.draw(video, 200, 380, 0, 100 / video:getWidth(), 121 /video:getHeight(), 0, 0)
 
 
     drawBordureBtnJeu()

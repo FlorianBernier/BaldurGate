@@ -9,7 +9,7 @@ screenWidth = 0
 screenHeight = 0
 scale_x = 0
 scale_y = 0
---setFullScreen : change taille ecrant true or false
+--setFullScreen : change taille ecrant true or false test
 setFullScreen = true
 Camera_x = -1000
 Camera_y = -1443
